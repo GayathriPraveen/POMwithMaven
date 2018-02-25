@@ -52,7 +52,7 @@ public class SeMethods extends Reporter implements WdMethods{
 			e.printStackTrace();
 		} catch (IOException e) {
 			e.printStackTrace();
-			//Execption
+			//Execption1
 		}
 	}
 
@@ -61,7 +61,7 @@ public class SeMethods extends Reporter implements WdMethods{
 			DesiredCapabilities dc = new DesiredCapabilities();
 			dc.setBrowserName(browser);
 			dc.setPlatform(Platform.WINDOWS);
-			// this is for grid run
+			// this is for grid run 
 			if(bRemote)
 				try {
 					driver = new RemoteWebDriver(new URL("http://"+sHubUrl+":"+sHubPort+"/wd/hub"), dc);
