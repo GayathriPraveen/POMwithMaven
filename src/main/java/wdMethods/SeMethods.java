@@ -38,7 +38,8 @@ public class SeMethods extends Reporter implements WdMethods{
 	public static RemoteWebDriver driver;
 	public String sUrl,sHubUrl,sHubPort;
 	public Properties prop;
-	//comments
+	//comments 
+	
 	
 	public SeMethods() {
 		prop = new Properties();
@@ -51,6 +52,7 @@ public class SeMethods extends Reporter implements WdMethods{
 			e.printStackTrace();
 		} catch (IOException e) {
 			e.printStackTrace();
+			//Execption
 		}
 	}
 
